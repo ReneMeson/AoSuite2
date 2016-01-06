@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formQuestCreator", "formQuestCreator\formQuestCreator.csproj", "{A98E0323-42B8-43ED-A8A5-FE2F871EFC46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuestCreator", "QuestCreator", "{07550F57-811F-4E64-9AC2-C8EDA2564077}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MapCreator", "MapCreator", "{9E9FFC8F-23D8-41CC-BBBB-637D558B3855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Indexer", "Indexer", "{792DDFD9-FCD3-4760-847F-0F3BECEB24D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A98E0323-42B8-43ED-A8A5-FE2F871EFC46} = {07550F57-811F-4E64-9AC2-C8EDA2564077}
 	EndGlobalSection
 EndGlobal
