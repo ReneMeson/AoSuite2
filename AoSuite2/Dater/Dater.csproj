@@ -52,6 +52,8 @@
     <Compile Include="Dater.Designer.cs">
       <DependentUpon>Dater.cs</DependentUpon>
     </Compile>
+    <Compile Include="Objects\Object.cs" />
+    <Compile Include="Objects\ObjectType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Dater.resx">
