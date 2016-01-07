@@ -43,7 +43,7 @@ namespace formQuestCreator
 50             }            
 51         }
 52 
-53         static void imprimir(string nombre, int edad, string mail)
+53         static void imprimir(string nameQuest, byte idQuest, string requestQuest)
 54         {
 55             Console.WriteLine("========================================================");
 56             Console.WriteLine(" > Id: {0}", idQuest);
