@@ -9,7 +9,7 @@ namespace formQuestCreator
 {
     class Binaries
     {
-        static void guardarArchivoBinario(string nombre, int edad, string mail)
+        static void guardarArchivoBinario(string nameQuest, byte idQuest, string requestQuest)
 20         {
 21             try 
 22             {
