@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace formQuestCreator
 {
-    class Quest
+    class clsQuest
     {
         public byte questID { get; set; }
         public string questName { get; set; }
